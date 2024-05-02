@@ -1,4 +1,21 @@
-# Ecommercecursos
+# Ecommercecursos - Módulo 1 Angular: Projeto individual
+
+📂 Sobre o projeto
+
+📚*PRINCIPAL*
+- Criar um ecommerce com base no tema tirado, com um catálogo na página principal contendo pelo menos o botão para adicionar o item ao carrinho; cada item deve possuir uma imagem;
+- Utilizar Input, Output e diretivas padrão do Angular pelo menos uma vez cada;
+- Criar os componentes necessários para a modularização do projeto, e uma estrutura de pastas organizada;
+- Criar um componente para o carrinho, com cada item podendo ser removido, ou ter sua quantidade incrementada e/ou decrementada;
+- Criar rotas diferentes para acessar o formulário para criação de um item;
+- Permitir que o item possa ser adicionado ao catálogo;
+- Utilizar localStorage para alguma funcionalidade do site;
+
+📚*EXTRA*
+- Os itens do catálogo devem vir de alguma API (DICA: pode usar um CRUDCRUD da vida ou um JSON Server);
+- Essa integração com a API deve ser feita usando Services.
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
