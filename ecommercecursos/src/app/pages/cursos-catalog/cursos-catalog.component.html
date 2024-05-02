@@ -1,0 +1,14 @@
+@for (curso of cursosList; track curso.id) {
+    <app-cursos-cards [curso]="curso" [teste]="teste" ></app-cursos-cards>
+    
+    } @empty {
+        <p>A lista de Cursos está vazia!</p>
+    } 
+
+    <app-cursos-cards></app-cursos-cards>
+    <!-- @for (curso of cursosList; track curso.id) {
+        <app-cursos-cards [curso]="curso" [teste]="teste" (addCursoToCart)="warnAboutAddCursoToCart(curso)"></app-cursos-cards>
+        
+        } @empty {
+            <p>A lista de Cursos está vazia!</p>
+        }  -->

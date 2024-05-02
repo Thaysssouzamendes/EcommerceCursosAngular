@@ -1,0 +1,12 @@
+<mat-list>
+    @for(curso of addedCursosList; track curso.id) {
+      <mat-list-item>
+        {{ curso.title }} | {{ curso.totalAddedToCart }}
+        <button mat-button color="warn" (click)="decrementTotalCursoCopies(curso)">-</button>
+        <button mat-button color="primary" (click)="incrementTotalCursoCopies(curso)">+</button>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    } @empty {
+      <mat-list-item>Carrinho vazio!</mat-list-item>
+    }
+  </mat-list>
